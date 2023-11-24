@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: "Slabo 13px";
+    font-family: "Slabo 13px", serif;
     
 }
 
@@ -180,4 +180,21 @@ h1 {
     color: white;
     padding: 6px 16px;
     border-radius: 5px;
+}
+
+
+
+
+
+
+.fifth {
+    display: flex;
+    height: 65px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
 }
