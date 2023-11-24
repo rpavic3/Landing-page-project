@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+
+
 body {
     margin: 0;
+    font-family: "Slabo 13px";
+    
 }
 
 .first {
     color: white;
-    background-color: #2d3e53;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +46,9 @@ a {
 
 h1 {
     width: 300px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .firstimg {
@@ -51,8 +60,78 @@ h1 {
     background-color: #848e9b2f;
 }
 
-
-
 .subtext {
-    width: 450px;
+    width: 420px;
+    color: #F9FAF8;
 }
+
+.signup {
+    background-color: rgb(85, 85, 247);
+    border: none;
+    border-radius: 6px;
+    padding: 4px 18px;
+    color: white;
+}
+
+
+
+
+
+
+.info {
+    display: flex;
+    
+    gap: 20px;
+}
+
+.illustr {
+    border: 2px solid rgb(70, 95, 236);
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second p {
+    text-align:center;
+    width: 140px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+.third {
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+    align-items: center;
+}
+
+.qtext {
+    font-size: 30px;
+}
+
