@@ -8,12 +8,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .header {
     display: flex;
     width: 850px;
     justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 50px;
 }
 
 ul{
@@ -31,7 +34,12 @@ a {
 
 .firstcont {
     display: flex;
-    align-items: center;
+    align-items:center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    width: 300px;
 }
 
 .firstimg {
@@ -40,7 +48,10 @@ a {
     height: 200px;
     justify-content: center;
     align-items: center;
+    background-color: #848e9b2f;
 }
+
+
 
 .subtext {
     width: 450px;
