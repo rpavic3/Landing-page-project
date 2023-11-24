@@ -122,9 +122,10 @@ h1 {
 
 
 
+
 .third {
     background-color: #E5E7EB;
-    height: 200px;
+    height: 350px;
     display: flex;
     justify-content: center;
 
@@ -133,11 +134,50 @@ h1 {
 .quote {
     display: flex;
     flex-direction: column;
-    width: 880px;
-    align-items: center;
+    width: 860px;
+    justify-content: center;
+
 }
 
 .qtext {
     font-size: 30px;
 }
 
+.qname {
+    align-self:flex-end;
+}
+
+
+
+
+
+.fourth {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    width: 850px;
+    height: 90px;
+    border-radius: 7px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.headercall{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
