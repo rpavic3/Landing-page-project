@@ -73,6 +73,12 @@ h1 {
     color: white;
 }
 
+.headandcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 
